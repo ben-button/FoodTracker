@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Button
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,30 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Debugging enabled (do not include in production)
+        Button.debug.isLoggingEnabled = true
+        
+        // Replace app-xxxxxxxxxxxxxxxx with your App ID from the Button Dashboard https://app.usebutton.com
+        Button.configure(applicationId: "app-7b5d900d4f03f457") { error in
+            // Optional callback to inspect whether an error occurred while
+            // creating or resuming a session. See also debug logging.
+        }
+        
+        // Step 1 - Create a Purchase Path request
+        let url = URL(string: "https://jet.com/product/Google-Smart-TV-Kit-Google-Home-Mini-and-Chromecast-3rd-Gen-Bundle/7bd2b616de9a46278326464a20e8f300?beaconId=0817204d-6901-4903-9102-2ed257ed8b14%2F2%2Fx~7bd2b616de9a46278326464a20e8f300&experienceId=26")!
+        let request = PurchasePathRequest(url: url)
+        
+        // Optionally associate a unique token (e.g. campaign Id)
+        // request.pubRef = "abc123"
+        
+        // Step 2 - Fetch a Purchase Path object
+        Button.purchasePath.fetch(request: request) { purchasePath, error in
+            
+            // Step 3 - Start Purchase Path flow
+            purchasePath?.start()
+        }
+        
         return true
     }
 

@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDCCD8E603B69FCEA3E2DE0A0C7C0588 /* Pods-FoodTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AFB777401C62266712EF4AE5E63EB9 /* Pods-FoodTracker-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		029009E66246E33FCEEBFC7A81C081F5 /* BTNDebugInterfaceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNDebugInterfaceProtocol.h; path = Button.framework/Versions/A/Headers/BTNDebugInterfaceProtocol.h; sourceTree = "<group>"; };
+		0340B8DEC832209813E3CAF5B737E02C /* BTNCardCallToAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNCardCallToAction.h; path = Button.framework/Versions/A/Headers/BTNCardCallToAction.h; sourceTree = "<group>"; };
+		06577D642C925590AA1447725EC57F80 /* BTNCard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNCard.h; path = Button.framework/Versions/A/Headers/BTNCard.h; sourceTree = "<group>"; };
+		0BC872CBF427B0082EEA58DC35218801 /* BTNCardListProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNCardListProtocol.h; path = Button.framework/Versions/A/Headers/BTNCardListProtocol.h; sourceTree = "<group>"; };
+		143EABAAAF17F7F9DECAE2838D99ADCD /* BTNItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNItem.h; path = Button.framework/Versions/A/Headers/BTNItem.h; sourceTree = "<group>"; };
+		15B24030CE0CD55F3650512D082FAD39 /* Pods-FoodTracker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodTracker-acknowledgements.plist"; sourceTree = "<group>"; };
+		1749FD2A0068D6DAB9CB63E876EFAA2F /* BTNPurchasePageProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNPurchasePageProtocol.h; path = Button.framework/Versions/A/Headers/BTNPurchasePageProtocol.h; sourceTree = "<group>"; };
+		183F36D099B336A6668EBEC15D686DB9 /* BTNDropinButtonConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNDropinButtonConstants.h; path = Button.framework/Versions/A/Headers/BTNDropinButtonConstants.h; sourceTree = "<group>"; };
+		19545E73BECFB78F49BE5A7EC6EA47EF /* Pods-FoodTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		2160B855BCA0D6E5DDC6B9F56FA95171 /* BTNSerializable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNSerializable.h; path = Button.framework/Versions/A/Headers/BTNSerializable.h; sourceTree = "<group>"; };
+		2322D89DBDD1913518CD51C508160BEF /* Pods-FoodTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodTracker.release.xcconfig"; sourceTree = "<group>"; };
+		2361BD86FA253D2FF781AF80197037D8 /* BTNDropinButtonCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNDropinButtonCell.h; path = Button.framework/Versions/A/Headers/BTNDropinButtonCell.h; sourceTree = "<group>"; };
+		269DAAEA7A22B27540CE35B4A5D6BCDC /* BTNBrowserChromeDelegateProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNBrowserChromeDelegateProtocol.h; path = Button.framework/Versions/A/Headers/BTNBrowserChromeDelegateProtocol.h; sourceTree = "<group>"; };
+		300E201E8E1A1FDD0A9AE52AADE734BD /* BTNActionQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNActionQuery.h; path = Button.framework/Versions/A/Headers/BTNActionQuery.h; sourceTree = "<group>"; };
+		319161580E8C6C63C380DBA1EF07C054 /* BTNBrowserHeaderProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNBrowserHeaderProtocol.h; path = Button.framework/Versions/A/Headers/BTNBrowserHeaderProtocol.h; sourceTree = "<group>"; };
+		37F26C5EB62DAFB09D7A930C01CC9E55 /* Pods-FoodTracker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoodTracker-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3AF90A7038DA534F1922C28B294376DF /* BTNPurchasePathExtensionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNPurchasePathExtensionProtocol.h; path = Button.framework/Versions/A/Headers/BTNPurchasePathExtensionProtocol.h; sourceTree = "<group>"; };
+		41EB8B3747AB872ACAA59F3D525525EF /* BTNBrowserPageProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNBrowserPageProtocol.h; path = Button.framework/Versions/A/Headers/BTNBrowserPageProtocol.h; sourceTree = "<group>"; };
+		44A1776D5EB05D0A18CBD0E5FA94A325 /* BTNPurchasePath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNPurchasePath.h; path = Button.framework/Versions/A/Headers/BTNPurchasePath.h; sourceTree = "<group>"; };
+		48714F9930EF66DD568CA02F107FFE65 /* BTNSubscriptableProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNSubscriptableProtocol.h; path = Button.framework/Versions/A/Headers/BTNSubscriptableProtocol.h; sourceTree = "<group>"; };
+		50C3824A7C22BC4E8B6A24732CCBA0C7 /* BTNLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNLocation.h; path = Button.framework/Versions/A/Headers/BTNLocation.h; sourceTree = "<group>"; };
+		590D2962CE697AEAC4708E6C3554D784 /* Button.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = Button.bundle; sourceTree = "<group>"; };
+		5A5F5E3586C721D954DB8A63D25EF962 /* BTNTextProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNTextProtocol.h; path = Button.framework/Versions/A/Headers/BTNTextProtocol.h; sourceTree = "<group>"; };
+		64F45817189AEB7A3F825089A5404091 /* BTNMusicArtist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNMusicArtist.h; path = Button.framework/Versions/A/Headers/BTNMusicArtist.h; sourceTree = "<group>"; };
+		6B6AAE5092601BA338AE2E8FBE659B78 /* BTNBaseEntity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNBaseEntity.h; path = Button.framework/Versions/A/Headers/BTNBaseEntity.h; sourceTree = "<group>"; };
+		6E2F403989CB45FF22AABA6C3A7ED8DC /* BTNProduct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNProduct.h; path = Button.framework/Versions/A/Headers/BTNProduct.h; sourceTree = "<group>"; };
+		74D7730A32F534581D2B069DCC038F4D /* BTNBrowserFooterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNBrowserFooterProtocol.h; path = Button.framework/Versions/A/Headers/BTNBrowserFooterProtocol.h; sourceTree = "<group>"; };
+		77760CD53DB7CDD610520F0F17CE0059 /* Pods-FoodTracker-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoodTracker-resources.sh"; sourceTree = "<group>"; };
+		838297ED0F92FDF78BD916C15DA84D5F /* BTNAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNAction.h; path = Button.framework/Versions/A/Headers/BTNAction.h; sourceTree = "<group>"; };
+		85AFB777401C62266712EF4AE5E63EB9 /* Pods-FoodTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoodTracker-dummy.m"; sourceTree = "<group>"; };
+		8F31D837CF83F6E58A4002F147AE51B4 /* libPods-FoodTracker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FoodTracker.a"; path = "libPods-FoodTracker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		930152DEA3327C57CA19F3D7DD55A146 /* BTNUserProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNUserProtocol.h; path = Button.framework/Versions/A/Headers/BTNUserProtocol.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9791FAF2A2A0C2E604935C621CE0F036 /* BTNInteractiveButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNInteractiveButton.h; path = Button.framework/Versions/A/Headers/BTNInteractiveButton.h; sourceTree = "<group>"; };
+		9E577CA6302BA533AEEECD0D51DEFFFF /* Button.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Button.h; path = Button.framework/Versions/A/Headers/Button.h; sourceTree = "<group>"; };
+		AC97DBAC8178F7F4E975A6F910368E0B /* BTNProductPageProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNProductPageProtocol.h; path = Button.framework/Versions/A/Headers/BTNProductPageProtocol.h; sourceTree = "<group>"; };
+		AEF7715F8CD5717E8317B6372100159F /* Button.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Button.framework; sourceTree = "<group>"; };
+		AF56CF2E207AA028D1674DFE63F6A380 /* BTNDropinButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNDropinButton.h; path = Button.framework/Versions/A/Headers/BTNDropinButton.h; sourceTree = "<group>"; };
+		B13BB2E5DEDB2C5540A0AF17A0C6B875 /* BTNActionRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNActionRequest.h; path = Button.framework/Versions/A/Headers/BTNActionRequest.h; sourceTree = "<group>"; };
+		C68B6B4CBAAA76402D7D26735276B9E5 /* BTNButtonActionsInterfaceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNButtonActionsInterfaceProtocol.h; path = Button.framework/Versions/A/Headers/BTNButtonActionsInterfaceProtocol.h; sourceTree = "<group>"; };
+		CCAB94003A6315AEBEF022F7DDDFEA38 /* BTNCommission.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNCommission.h; path = Button.framework/Versions/A/Headers/BTNCommission.h; sourceTree = "<group>"; };
+		CED3FBAF8293F6A3D8A4B073812D7F56 /* BTNTextCard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNTextCard.h; path = Button.framework/Versions/A/Headers/BTNTextCard.h; sourceTree = "<group>"; };
+		D1BC5E7245265A2FE41BDDE8F47A0674 /* BTNDropinButtonAppearanceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNDropinButtonAppearanceProtocol.h; path = Button.framework/Versions/A/Headers/BTNDropinButtonAppearanceProtocol.h; sourceTree = "<group>"; };
+		D7FD4A13760FAAFA78AA3B55FCFCD2AA /* Button_Public.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Button_Public.h; path = Button.framework/Versions/A/Headers/Button_Public.h; sourceTree = "<group>"; };
+		DA671ABCD131CF30F4AD81D8B9CBA4D6 /* BTNEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNEvent.h; path = Button.framework/Versions/A/Headers/BTNEvent.h; sourceTree = "<group>"; };
+		DB66DAB0A45E605F23524054D2307E29 /* BTNModelObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNModelObject.h; path = Button.framework/Versions/A/Headers/BTNModelObject.h; sourceTree = "<group>"; };
+		E168F5D0C7D39560F230BE13EB850062 /* Pods-FoodTracker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoodTracker-frameworks.sh"; sourceTree = "<group>"; };
+		E2FA1CEF91CA8A5554BEBC14126EE564 /* BTNBrowserInterfaceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNBrowserInterfaceProtocol.h; path = Button.framework/Versions/A/Headers/BTNBrowserInterfaceProtocol.h; sourceTree = "<group>"; };
+		E52CD1B8019C65F58FCF9585D4FA6B2E /* BTNPurchasePathInterfaceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNPurchasePathInterfaceProtocol.h; path = Button.framework/Versions/A/Headers/BTNPurchasePathInterfaceProtocol.h; sourceTree = "<group>"; };
+		F000D43DD3F3DBD8E4ED26452156468B /* BTNJourney.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNJourney.h; path = Button.framework/Versions/A/Headers/BTNJourney.h; sourceTree = "<group>"; };
+		F0981B8DA7B23966D3F68DA295E4F17B /* BTNPurchasePathRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNPurchasePathRequest.h; path = Button.framework/Versions/A/Headers/BTNPurchasePathRequest.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9C6875735332EB4A73BA2FAF159E3D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		075306126CB951C310F71D4497075577 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F31D837CF83F6E58A4002F147AE51B4 /* libPods-FoodTracker.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DDEDA42D69E8BFB6679E846E9D2B71A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEF7715F8CD5717E8317B6372100159F /* Button.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15F7C1754EA6EFF25947A490870C0B03 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				590D2962CE697AEAC4708E6C3554D784 /* Button.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		21FD01FE2001C15CE72B371C165F930D /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				838297ED0F92FDF78BD916C15DA84D5F /* BTNAction.h */,
+				300E201E8E1A1FDD0A9AE52AADE734BD /* BTNActionQuery.h */,
+				B13BB2E5DEDB2C5540A0AF17A0C6B875 /* BTNActionRequest.h */,
+				6B6AAE5092601BA338AE2E8FBE659B78 /* BTNBaseEntity.h */,
+				269DAAEA7A22B27540CE35B4A5D6BCDC /* BTNBrowserChromeDelegateProtocol.h */,
+				74D7730A32F534581D2B069DCC038F4D /* BTNBrowserFooterProtocol.h */,
+				319161580E8C6C63C380DBA1EF07C054 /* BTNBrowserHeaderProtocol.h */,
+				E2FA1CEF91CA8A5554BEBC14126EE564 /* BTNBrowserInterfaceProtocol.h */,
+				41EB8B3747AB872ACAA59F3D525525EF /* BTNBrowserPageProtocol.h */,
+				C68B6B4CBAAA76402D7D26735276B9E5 /* BTNButtonActionsInterfaceProtocol.h */,
+				06577D642C925590AA1447725EC57F80 /* BTNCard.h */,
+				0340B8DEC832209813E3CAF5B737E02C /* BTNCardCallToAction.h */,
+				0BC872CBF427B0082EEA58DC35218801 /* BTNCardListProtocol.h */,
+				CCAB94003A6315AEBEF022F7DDDFEA38 /* BTNCommission.h */,
+				029009E66246E33FCEEBFC7A81C081F5 /* BTNDebugInterfaceProtocol.h */,
+				AF56CF2E207AA028D1674DFE63F6A380 /* BTNDropinButton.h */,
+				D1BC5E7245265A2FE41BDDE8F47A0674 /* BTNDropinButtonAppearanceProtocol.h */,
+				2361BD86FA253D2FF781AF80197037D8 /* BTNDropinButtonCell.h */,
+				183F36D099B336A6668EBEC15D686DB9 /* BTNDropinButtonConstants.h */,
+				DA671ABCD131CF30F4AD81D8B9CBA4D6 /* BTNEvent.h */,
+				9791FAF2A2A0C2E604935C621CE0F036 /* BTNInteractiveButton.h */,
+				143EABAAAF17F7F9DECAE2838D99ADCD /* BTNItem.h */,
+				F000D43DD3F3DBD8E4ED26452156468B /* BTNJourney.h */,
+				50C3824A7C22BC4E8B6A24732CCBA0C7 /* BTNLocation.h */,
+				DB66DAB0A45E605F23524054D2307E29 /* BTNModelObject.h */,
+				64F45817189AEB7A3F825089A5404091 /* BTNMusicArtist.h */,
+				6E2F403989CB45FF22AABA6C3A7ED8DC /* BTNProduct.h */,
+				AC97DBAC8178F7F4E975A6F910368E0B /* BTNProductPageProtocol.h */,
+				1749FD2A0068D6DAB9CB63E876EFAA2F /* BTNPurchasePageProtocol.h */,
+				44A1776D5EB05D0A18CBD0E5FA94A325 /* BTNPurchasePath.h */,
+				3AF90A7038DA534F1922C28B294376DF /* BTNPurchasePathExtensionProtocol.h */,
+				E52CD1B8019C65F58FCF9585D4FA6B2E /* BTNPurchasePathInterfaceProtocol.h */,
+				F0981B8DA7B23966D3F68DA295E4F17B /* BTNPurchasePathRequest.h */,
+				2160B855BCA0D6E5DDC6B9F56FA95171 /* BTNSerializable.h */,
+				48714F9930EF66DD568CA02F107FFE65 /* BTNSubscriptableProtocol.h */,
+				CED3FBAF8293F6A3D8A4B073812D7F56 /* BTNTextCard.h */,
+				5A5F5E3586C721D954DB8A63D25EF962 /* BTNTextProtocol.h */,
+				930152DEA3327C57CA19F3D7DD55A146 /* BTNUserProtocol.h */,
+				9E577CA6302BA533AEEECD0D51DEFFFF /* Button.h */,
+				D7FD4A13760FAAFA78AA3B55FCFCD2AA /* Button_Public.h */,
+				0DDEDA42D69E8BFB6679E846E9D2B71A /* Frameworks */,
+				15F7C1754EA6EFF25947A490870C0B03 /* Resources */,
+			);
+			name = Button;
+			path = Button;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				F3165F97BF7307BA96A97F5120CF607C /* Pods */,
+				075306126CB951C310F71D4497075577 /* Products */,
+				920D257F962802CFD9F5AE586905519D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		920D257F962802CFD9F5AE586905519D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C01E3053D27937E5CF5131578E1BDDD3 /* Pods-FoodTracker */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C01E3053D27937E5CF5131578E1BDDD3 /* Pods-FoodTracker */ = {
+			isa = PBXGroup;
+			children = (
+				37F26C5EB62DAFB09D7A930C01CC9E55 /* Pods-FoodTracker-acknowledgements.markdown */,
+				15B24030CE0CD55F3650512D082FAD39 /* Pods-FoodTracker-acknowledgements.plist */,
+				85AFB777401C62266712EF4AE5E63EB9 /* Pods-FoodTracker-dummy.m */,
+				E168F5D0C7D39560F230BE13EB850062 /* Pods-FoodTracker-frameworks.sh */,
+				77760CD53DB7CDD610520F0F17CE0059 /* Pods-FoodTracker-resources.sh */,
+				19545E73BECFB78F49BE5A7EC6EA47EF /* Pods-FoodTracker.debug.xcconfig */,
+				2322D89DBDD1913518CD51C508160BEF /* Pods-FoodTracker.release.xcconfig */,
+			);
+			name = "Pods-FoodTracker";
+			path = "Target Support Files/Pods-FoodTracker";
+			sourceTree = "<group>";
+		};
+		F3165F97BF7307BA96A97F5120CF607C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21FD01FE2001C15CE72B371C165F930D /* Button */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		73123688766644540B3FED090B2F8C88 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F4EC73BD2728A20FA50B4BB87E6D2BA3 /* Pods-FoodTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 671DDB50CE9A7C4D0D9B6A4D325FCBAC /* Build configuration list for PBXNativeTarget "Pods-FoodTracker" */;
+			buildPhases = (
+				73123688766644540B3FED090B2F8C88 /* Headers */,
+				DC12AADA8879C2F695302FAB0C57A192 /* Sources */,
+				C9C6875735332EB4A73BA2FAF159E3D7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FoodTracker";
+			productName = "Pods-FoodTracker";
+			productReference = 8F31D837CF83F6E58A4002F147AE51B4 /* libPods-FoodTracker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 075306126CB951C310F71D4497075577 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4EC73BD2728A20FA50B4BB87E6D2BA3 /* Pods-FoodTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC12AADA8879C2F695302FAB0C57A192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCCD8E603B69FCEA3E2DE0A0C7C0588 /* Pods-FoodTracker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0AA3B91655AF95B1F49159CD8085CD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		226EF622EFD6201F70A811CD798558AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2322D89DBDD1913518CD51C508160BEF /* Pods-FoodTracker.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8000995DA02063BF3777393CD52061DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8681004D89B6CD53AB37D432ECD09C2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19545E73BECFB78F49BE5A7EC6EA47EF /* Pods-FoodTracker.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA3B91655AF95B1F49159CD8085CD89 /* Debug */,
+				8000995DA02063BF3777393CD52061DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		671DDB50CE9A7C4D0D9B6A4D325FCBAC /* Build configuration list for PBXNativeTarget "Pods-FoodTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8681004D89B6CD53AB37D432ECD09C2E /* Debug */,
+				226EF622EFD6201F70A811CD798558AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
